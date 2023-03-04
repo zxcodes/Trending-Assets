@@ -1,0 +1,85 @@
+.cardHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.assetIconWrapper {
+    height: 6.25rem;
+    width: 6.25rem;
+    backdrop-filter: blur(3.125rem);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -3.2rem;
+}
+
+.assetTextIndicator {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #737BAE;
+    opacity: 0.9;
+}
+
+.cardBackground {
+    background-image: url('./assets/cardBackground.svg');
+    width: 18.171rem;
+    height: 21.881rem;
+}
+
+.cardInnerHolder {
+    margin-top: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.valueHolder {
+    border-radius: 1.0625rem;
+    width: 15.125rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ECF0FF;
+    background-image: url("./assets/valueHolder.svg");
+}
+
+.popularPairsHolder {
+    background: #14172B;
+    border-radius: 1.84375rem;
+    height: 2.5rem;
+    width: 7.609375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.bitcoinGradient {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    ;
+}
+
+.solanaGradient {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%);
+    ;
+}
+
+.ethereumGradient {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%);
+}
+
+.binanceGradient {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    ;
+}
+
+.shibainuGradient {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%);
+}
