@@ -3,8 +3,10 @@ Implements a figma design, which displays the trending assets for a specific mar
 
 This project is bootstrapped with Vite: https://vitejs.dev/
 
+### Live demo:
+https://zxcodes.github.io/trending-assets/
 
-# Install dependencies:
+# Install dependencies
 ```npm install```
 
 # Start dev server
