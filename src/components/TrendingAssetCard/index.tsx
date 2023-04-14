@@ -38,6 +38,7 @@ export default ({
         <img src={assetIcon} height={50} width={50} alt="asset icon" />
       </div>
       <div className="cardBackground">
+        <div className="topCurve"></div>
         <div className="cardInnerHolder">
           <p className="assetTextIndicator">{assetName}</p>
           <div className="valueHolder">
